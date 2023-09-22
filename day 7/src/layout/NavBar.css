@@ -1,0 +1,30 @@
+.brand-logo{
+    text-align: right;
+    font-size: xx-large;
+  }
+.user
+{
+  padding-top: 100px;
+  color:black;
+  font-size: xx-large;
+  background-image: url("https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 100vh;
+  background-size: cover;
+}
+.nav-contain
+{
+    background-color: rgb(118, 189, 158);
+    height: 10vh;
+}
+.right-flow{
+  padding-right: 10px;
+}
+.right{
+  margin-left: 1000px;
+  display: flex;
+  margin-top: -20px;
+}
+.r1{
+  padding-right: 20px;
+  color: black;
+}
