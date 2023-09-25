@@ -1,0 +1,62 @@
+/* Center the content horizontally and vertically */
+body {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #d8dfe2;
+}
+
+/* Style for the "Welcome" text */
+.user {
+  padding-top: 10px;
+  margin-left: 20px;
+  font-size: x-large;
+  font-weight: bolder;
+  color: rgb(14, 13, 13);
+  font-size: xx-large;
+}
+
+/* Style for the search container */
+.search-container {
+  text-align: center;
+  margin-top: 20px; /* Add space between "Welcome" text and search bar */
+}
+
+/* Style for the search bar container */
+.search-bar {
+  text-align: center;
+}
+
+/* Style for the search input */
+.search-bar input[type="text"] {
+  padding: px;
+  font-size: 16px;
+  color: #dad2d2;
+  background-color: #444343;
+  border: 1px solid #1d1414;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Style for the search button */
+.search-bar button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #3b6688;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  margin: 0 auto;
+}
