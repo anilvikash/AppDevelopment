@@ -1,0 +1,56 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .dashboard-card {
+    background-color: #fff;
+    background-image: url("D:\vjf-1\src\Asset\light-cyan-background-images-hd-pictures-and-wallpaper-for-free-download-free-photo.jpg");
+    padding: 80px 80px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    max-width: 300px;
+  }
+  
+  .dashboard-card h3 {
+    color: #333;
+  }
+  
+  .dashboard-card p {
+    color: #666;
+  }
+  
+  .dashboard-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .dashboard-card a:hover {
+    background-color: #0056b3;
+  }
+  

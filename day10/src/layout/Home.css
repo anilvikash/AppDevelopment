@@ -1,0 +1,68 @@
+/* Center the content horizontally and vertically */
+body {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("D:\vjf-1\src\Asset\photo-1560179707-f14e90ef3623.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #a1a4a4;
+}
+
+/* Style for the "Welcome" text */
+.user {
+  padding-top: 10px;
+  margin-left: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+  color:white;
+  font-size: xx-large;
+}
+
+/* Style for the search container */
+.search-container {
+  text-align: center;
+  margin-top: 20px; /* Add space between "Welcome" text and search bar */
+}
+
+/* Style for the search bar container */
+.search-bar {
+  text-align: center;
+}
+
+/* Style for the search input */
+.search-bar input[type="text"] {
+  padding: px;
+  font-size: 16px;
+  color: #181717;
+  background-color: #f0eaea;
+  border: 1px solid #8b8888;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Style for the search button */
+.search-bar button[type="submit"] {
+  padding: 10px ;
+  margin-top: 10px;
+  background-color: #1e7fc8;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.search-bar input::placeholder {
+  color: rgb(14, 14, 14);
+}
+

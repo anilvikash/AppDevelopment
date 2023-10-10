@@ -1,0 +1,67 @@
+/* Styles for the Back button */
+.continue-btn {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add a slight border radius */
+    text-decoration: none; /* Remove underlines from the link */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .continue-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Styles for the "hero" section */
+  .hero {
+    background-image: url('D:\vjf-1\src\Asset\2889-administratornetworking.jpgL.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text color */
+    padding: 10px 500px; /* Add padding to the top and bottom */
+    text-align: center;
+    
+  }
+  
+  /* Styles for the card */
+  /* Styles for the card */
+.card {
+  background-color: rgba(82, 80, 80, 0); /* Semi-transparent black background */
+  border: none; /* Remove the border */
+  border-radius: 10px; /* Add a border radius */
+  padding: 20px 20px; /* Add some padding */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0); /* Add a subtle shadow */
+  max-width: 1000px; /* Adjust the maximum width to your desired value */
+  margin: -10px; /* Center the card horizontally on the page */
+}
+
+  
+  /* Styles for the job titles and salaries */
+  /* Jobs.css */
+
+  .card-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+ 
+  }
+  
+  
+  .card p {
+    font-size: 18px; /* Font size for the job descriptions */
+    margin: 10px 0; /* Add space above and below each job description */
+  }
+  
+  /* Additional styles as needed */
+  /* Jobs.css */
+
+/* Existing styles... */
+
+/* Style for the highlighted title */
+.highlight-title {
+    color: #ff6600; /* Choose your desired text color for highlighting */
+    font-size: 36px; /* Choose your desired font size for highlighting */
+  }
+  
+  
